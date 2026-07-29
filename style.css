@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    background:#f2f5f8;
+
+}
+
+.container{
+
+    width:90%;
+    max-width:900px;
+
+    margin:40px auto;
+
+    background:white;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+
+    padding:40px;
+
+}
+
+header{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+}
+
+header h1{
+
+    color:#0A3D91;
+
+    font-size:30px;
+
+}
+
+header h2{
+
+    margin-top:15px;
+
+    color:#444;
+
+}
+
+header p{
+
+    margin-top:10px;
+
+    color:#777;
+
+}
+
+.busca{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+button{
+
+    background:#0A3D91;
+
+    color:white;
+
+    border:none;
+
+    padding:15px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+}
+
+button:hover{
+
+    background:#082f6d;
+
+}
+
+input{
+
+    padding:15px;
+
+    border:1px solid #CCC;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+}
+
+#resultado{
+
+    margin-top:40px;
+
+    border-top:1px solid #DDD;
+
+    padding-top:30px;
+
+}
+
+#dadosResultado{
+
+    margin-top:15px;
+
+    background:#f7f7f7;
+
+    border-radius:8px;
+
+    padding:20px;
+
+}
+header{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.logo{
+    width:110px;
+    margin-bottom:15px;
+}
+
+header h1{
+    color:#0A3D91;
+    font-size:2rem;
+    font-weight:bold;
+}
+
+.subtitulo{
+    color:#666;
+    font-size:1.1rem;
+    margin-top:10px;
+}
+#mapaContainer{
+    margin-top:40px;
+}
+
+#mapa{
+    height:500px;
+    width:100%;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
